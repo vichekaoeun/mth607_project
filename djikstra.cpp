@@ -1,3 +1,4 @@
+#include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
 #include <limits>
@@ -35,6 +36,10 @@ std::vector<int> djikstra(const std::vector<std::vector<int>> &graph, int start)
         }
     }
     return dist;
+}
+
+void visualizeGraph(const std::vector<std::vector<int>> &graph, const std::vector<int> &dist)
+{
 }
 
 int main()
